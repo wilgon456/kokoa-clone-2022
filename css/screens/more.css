@@ -28,12 +28,20 @@
 
 .more-sugestions__icon {
     margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .more-suggetions__icon-image {
+    margin-bottom: 10px;
+}
+
+.more-suggestions__icon-image_1 {
     width: 60px;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
