@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find - Kokoa Clone</title>
+    <title>More - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -23,9 +23,10 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Find</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
         <span class="find__icons">
             <i class="fa-solid fa-cog fa-lg"></i>
             <div class="find__setting badge"></div>
@@ -33,55 +34,46 @@
       </div>
     </header>
 
-    <main class="main-screen">
-        <div class="icon-row">
-            <div class="icon-row_icon">
-                <i class="fas fa-qrcode"></i>
-                <span>QR code</span></div>
-            <div class="icon-row_icon">
-                <i class="far fa-address-book"></i>
-                <span>Add by Contracts</span></div>
-            <div class="icon-row_icon">
-                <i class="fas fa-fingerprint"></i>
-                <span>Add by ID</span></div>
-            <div class="icon-row_icon">
-                <i class="far fa-envelope"></i>
-                <span>Invite</span></div>
-        </div>
-
-        <div class="recommended-friends">
-            <h6 class="recommended-friends__title">Rcommended Friends</h6>
-            <span>You have no recommended friends.</span>
-        </div>
-
-        <div class="open-chat">
-          <div class="open-chat__header">
-            <h4>Open Chat</h4>
-            <span>Go to Openchat Home
-            <i class="fas fa-chevron-right fa-xs"></i>
-            </span>
-          </div>
-          <div class="open-post">
-            <div class="open-post__column">
-              <h5 class="open-post__title">#BTS</h5>
-              <h6 class="open-post__hashtags">#bts#army#friends</h6>
-              <div class="open-post__members">
-                <img src="https://cdn.pixabay.com/photo/2017/06/13/12/54/profile-2398783_960_720.png" />
-                <span class="open-post__member-count">802 members</span> 
-                <div class="divider"></div>
-                <span class="open-post__member-status">Active</span>
+    <main class="main-screen more-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+              <img src="https://upload3.inven.co.kr/upload/2021/07/12/bbs/i16010172480.jpg" class="user-component__avatar--xl"/>
+              <div class="user-component__text">
+                <h4 class="user-component__title">Tony</h4>
+                <span class="user-component__number">
+                    <h6 class="user-component__subtitle">+82-10-3176-1853 </h6>
+                    <i class="fa-solid fa-circle-info"></i>
+                </span>
               </div>
             </div>
-            <div class="open-post__column">
-              <div class="open-post__photo">
-                <img src="https://bgmfactory.com/storage/albumcover/822.jpg" />
-                <div class="open-post__heart-count">
-                  <i class="fas fa-heart fa-xs"></i>
-                  <span>326</span>
-              </div>
-              </div>
+            <div class="user-component__column">
+                <i class="far fa-comment-alt fa-2x"></i>
             </div>
           </div>
+          <div class="icon-row">
+            <div class="icon-row_icon">
+                <i class="far fa-calendar"></i>
+                <span>Calendar</span></div>
+            <div class="icon-row_icon">
+                <i class="far fa-smile-beam"></i>
+                <span>Emotions</span></div>
+            <div class="icon-row_icon">
+                <i class="fas fa-paint-roller"></i>
+                <span>Themes</span></div>
+            <div class="icon-row_icon">
+                <i class="fas fa-file-invoice-dollar"></i>
+                <span>Account</span></div>
+        </div>
+        <div class="more-sugestions">
+            <h4 class="more-suggestions__title">suggestions</h4>
+            <div class="more-suggestions__icons">
+                <div class="more-suggestions__icon">
+                    <div class="more-suggetions__icon-image">
+                        <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb93Qmt%2Fbtqyxp8va1h%2FVnq51EQFNUUEFUuHWnh961%2Fimg.png" />
+                    </div>
+                    <div class="more-suggetions__icon-text">Kokoa story</div>
+                </div>
+            </div>
         </div>
     </main>
 

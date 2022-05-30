@@ -1,0 +1,39 @@
+.user-component__number {
+    display: flex;
+    align-items: center;
+}
+.user-component__text i {
+    margin-left: 10px;
+    color: palevioletred
+}
+
+.more-screen .icon-row {
+    margin-top: 35px;
+}
+
+.more-sugestions {
+    margin-top: 15px;
+    border-top: var(--main-border);
+    padding-top: 40px;
+}
+
+.more-suggestions__title {
+    margin-bottom: 30px;
+}
+
+.more-suggetions__icons {
+    display: flex;
+}
+
+
+.more-sugestions__icon {
+    margin-right: 30px;
+}
+
+.more-suggetions__icon-image {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
