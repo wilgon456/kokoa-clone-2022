@@ -28,7 +28,7 @@ cd kokoa-clone-2022
 python3 -m http.server 8000
 ```
 
-**http://localhost:8000/Index.html**을 엽니다. 대소문자를 구분하는 서버에서는 대문자 **I**가 중요합니다. 브라우저 폭을 줄이거나 모바일 기기 모드를 사용하세요. 넓은 화면에는 의도적으로 “Your screen is too big” 안내가 표시됩니다.
+[http://localhost:8000/Index.html](http://localhost:8000/Index.html)을 엽니다. 대소문자를 구분하는 서버에서는 대문자 **I**가 중요합니다. 브라우저 폭을 줄이거나 모바일 기기 모드를 사용하세요. 넓은 화면에는 의도적으로 “Your screen is too big” 안내가 표시됩니다.
 
 ## 페이지 안내
 
